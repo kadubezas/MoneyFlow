@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "moneyflow.API", "src\moneyflow.API\moneyflow.API.csproj", "{2AE3C93E-642F-4F67-BF09-2617A3B46C82}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "moneyflow.TEST", "src\moneyflow.TEST\moneyflow.TEST.csproj", "{5BBAA068-1EC5-4FF8-A518-8BDD186E34AA}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "moneyflow.DATABASE", "src\moneyflow.DATABASE\moneyflow.DATABASE.sqlproj", "{95A5B66E-23F7-48F9-BFC7-B98F3D68EEE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AE3C93E-642F-4F67-BF09-2617A3B46C82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AE3C93E-642F-4F67-BF09-2617A3B46C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AE3C93E-642F-4F67-BF09-2617A3B46C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AE3C93E-642F-4F67-BF09-2617A3B46C82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BBAA068-1EC5-4FF8-A518-8BDD186E34AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BBAA068-1EC5-4FF8-A518-8BDD186E34AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BBAA068-1EC5-4FF8-A518-8BDD186E34AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BBAA068-1EC5-4FF8-A518-8BDD186E34AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95A5B66E-23F7-48F9-BFC7-B98F3D68EEE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95A5B66E-23F7-48F9-BFC7-B98F3D68EEE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95A5B66E-23F7-48F9-BFC7-B98F3D68EEE3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{95A5B66E-23F7-48F9-BFC7-B98F3D68EEE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95A5B66E-23F7-48F9-BFC7-B98F3D68EEE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95A5B66E-23F7-48F9-BFC7-B98F3D68EEE3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C59823F-66C5-4C2C-AF38-A675834B63CC}
+	EndGlobalSection
+EndGlobal
